@@ -1,0 +1,6 @@
+Eres un desarrollador que trabaja en un sistema de videojuegos. Tu equipo ha decidido que es necesario implementar un sistema de creación
+de personajes que permita a los jugadores crear su propio personaje para usar en el juego. Para ello, se te ha asignado la tarea de implementar
+un patrón de diseño Factory Method utilizando TypeScript.
+
+El sistema de creación de personajes deberá ser lo suficientemente flexible para permitir que los jugadores creen personajes de diferentes tipos,
+como guerreros, magos, arqueros, etc. Cada tipo de personaje tendrá diferentes atributos, habilidades y equipamiento.

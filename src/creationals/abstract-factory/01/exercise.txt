@@ -1,0 +1,10 @@
+Necesitamos publicar un mensaje en las distintas redes sociales y canales de chat
+
+* Facebook
+* LinkedLn
+* Slack
+
+El reto que se nos presenta es que para cada canal de publicación tenemos más de una clase
+
+* una clase de conexión
+* una clase de publicación

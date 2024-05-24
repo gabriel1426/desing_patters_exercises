@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var post_1 = require("./post");
+var facebook_factory_1 = require("./factories/facebook/facebook-factory");
+var linkedln_factory_1 = require("./factories/linkedln/linkedln.factory");
+var slack_factory_1 = require("./factories/slack/slack-factory");
+var post = new post_1.Post("este es el mensaje que vamos a publicar");
+post.send(new facebook_factory_1.FacebookFactory());
+post.send(new linkedln_factory_1.LinkedLnFactory());
+post.send(new slack_factory_1.SlackFactory());

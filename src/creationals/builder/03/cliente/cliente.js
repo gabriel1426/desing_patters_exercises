@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var robotDirector_1 = require("../director/robotDirector");
+var robotBuilder_1 = require("../builder/robotBuilder");
+var director = new robotDirector_1.RobotDirector();
+var builder = new robotBuilder_1.RobotBuilder();
+var robot1 = director.createRobotModel1(builder);
+robot1.printRobot();
+console.log('----------------------');
+console.log('----------------------');
+var robot2 = director.createRobotModel2(builder);
+robot2.printRobot();

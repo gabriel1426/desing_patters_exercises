@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var email_notificator_service_1 = require("./notificador/email-notificator.service");
+var notification_manager_service_1 = require("./notification-manager.service");
+var sms_adapter_service_1 = require("./adapter/sms-adapter.service");
+var emailNotificator = new email_notificator_service_1.EmailNotificatorService();
+var smsNotificator = new sms_adapter_service_1.SmsAdapterService('1234567890');
+var sistemaEmail = new notification_manager_service_1.NotificationManagerService(emailNotificator);
+var sistemaSMS = new notification_manager_service_1.NotificationManagerService(smsNotificator);
+sistemaEmail.sendNotification('Mensaje de prueba');
+sistemaSMS.sendNotification('Mensaje mensaje fue por SMS');

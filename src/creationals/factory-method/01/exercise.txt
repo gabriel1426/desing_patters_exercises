@@ -1,0 +1,15 @@
+Supongamos que estás desarrollando una aplicación de compras en línea que ofrece diferentes tipos de productos, como libros, electrónica, ropa, etc.
+Cada tipo de producto tendrá un conjunto de características y comportamientos diferentes. Por ejemplo, los libros tendrán un autor, un título y un ISBN,
+mientras que los productos electrónicos tendrán una marca, un modelo y especificaciones técnicas.
+
+Para manejar esta complejidad, podrías implementar el patrón de diseño Factory Method. Podrías crear una clase abstracta llamada Product que defina los
+métodos y propiedades comunes que tienen todos los productos. Luego, crearías una clase concreta para cada tipo de producto, como Book, Electronic, etc.,
+que heredaría de la clase Product y definiría sus propias propiedades y métodos específicos.
+
+A continuación, podrías implementar la clase ProductFactory que se encargará de crear diferentes tipos de productos. ProductFactory sería una clase abstracta
+que define un método llamado createProduct que devuelve una instancia de Product. Luego, crearías una clase concreta para cada tipo de producto, como BookFactory,
+ElectronicsFactory, etc., que heredaría de la clase ProductFactory y definiría su propia implementación del método createProduct para crear instancias de sus
+respectivos productos.
+
+Finalmente, en tu aplicación de compra en línea, podrías utilizar las diferentes clases ProductFactory para crear diferentes tipos de productos según sea necesario,
+en función de las necesidades de tu aplicación.

@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var game_1 = require("./game");
+var wizard_factory_class_1 = require("./character-factory/wizard.factory.class");
+var warrior_factory_class_1 = require("./character-factory/warrior-factory.class");
+var archer_factory_class_1 = require("./character-factory/archer.factory.class");
+var game = new game_1.Game();
+game.createCharacter(new warrior_factory_class_1.WarriorFactoryClass());
+game.createCharacter(new wizard_factory_class_1.WizardFactoryClass());
+game.createCharacter(new archer_factory_class_1.ArcherFactoryClass());

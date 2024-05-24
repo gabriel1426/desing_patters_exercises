@@ -1,0 +1,4 @@
+Supongamos que estás trabajando en una aplicación que necesita generar diferentes tipos de reportes de ventas en diferentes formatos,
+como PDF, CSV y HTML. Para cada formato de reporte, necesitarás diferentes generadores de reporte que produzcan los datos de ventas
+en el formato correspondiente.
+

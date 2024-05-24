@@ -1,0 +1,9 @@
+Se requiere implementar un sistema para la creación de robots personalizados. Cada robot puede tener diferentes componentes,
+como cabeza, cuerpo, brazos y piernas, cada uno con sus propias características y opciones de personalización. Se necesita
+un constructor para ensamblar estos robots paso a paso de manera flexible, permitiendo especificar qué componentes se desean
+y con qué características.
+
+El sistema debe permitir la creación de robots con una complejidad de al menos 7, lo que implica la combinación de múltiples
+componentes con diferentes configuraciones posibles. Además, se debe garantizar que el proceso de construcción de los robots
+sea robusto y fácil de usar, permitiendo la adición de nuevos componentes en el futuro sin necesidad de modificar el código
+existente.

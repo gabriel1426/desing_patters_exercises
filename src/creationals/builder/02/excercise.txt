@@ -1,0 +1,3 @@
+Supongamos que estás desarrollando un sistema para una tienda de muebles. La tienda vende varios tipos de muebles, como mesas, sillas, sofás, etc.
+ Cada tipo de mueble tiene una serie de características diferentes, como el material utilizado, el tamaño, la forma, el color, etc. Además,
+ los clientes pueden personalizar los muebles para que se ajusten a sus necesidades específicas.

@@ -1,0 +1,4 @@
+Eres el responsable de mantener y mejorar un sistema legacy de notificaciones en una empresa de tecnología.
+El sistema legacy utiliza una interfaz definida Notificador para enviar notificaciones por correo electrónico.
+Recientemente, la empresa ha decidido incorporar un nuevo servicio de notificaciones por SMS, y necesitas
+integrar esta funcionalidad en el sistema existente sin modificar la lógica del código legacy.

@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var game_1 = require("./game");
+var human_factory_1 = require("./factories/human/human-factory");
+var elfos_factory_1 = require("./factories/elfos/elfos-factory");
+var orcos_factory_1 = require("./factories/orcos/orcos-factory");
+var game = new game_1.Game();
+game.createUnit(new human_factory_1.HumanFactory());
+game.equiparUnidad();
+game.atacar();
+game.createUnit(new elfos_factory_1.ElfosFactory());
+game.equiparUnidad();
+game.atacar();
+game.createUnit(new orcos_factory_1.OrcosFactory());
+game.equiparUnidad();
+game.atacar();

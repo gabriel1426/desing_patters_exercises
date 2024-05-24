@@ -1,0 +1,15 @@
+{
+  "name": "desing_patterns_exercise",
+  "version": "1.0.0",
+  "description": "exercises to practice desing patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "tsc src/estructurales/adapter/02/index.ts && node src/estructurales/adapter/02/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

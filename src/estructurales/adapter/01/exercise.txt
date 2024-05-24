@@ -1,0 +1,17 @@
+Eres el responsable de desarrollar un sistema de gestión de pedidos para una empresa de comercio electrónico que está fusionándose con otra compañía.
+Ambas empresas tienen sistemas internos diferentes para manejar los pedidos, y necesitas integrarlos sin modificar los sistemas existentes.
+
+Descripción del Problema:
+
+* Sistema A (Interno): Utiliza una clase PedidoInterno con los siguientes métodos:
+
+    obtenerID(): Devuelve el ID del pedido.
+    obtenerCantidad(): Devuelve la cantidad de artículos en el pedido.
+    obtenerDescripcion(): Devuelve la descripción del pedido.
+
+
+* Sistema B (Externo): Utiliza una clase ExternalOrderService con los siguientes métodos:
+
+    getOrderIdentifier(): Devuelve el número del pedido.
+    getItemsCount(): Devuelve el número de artículos en el pedido.
+    getOrderDetails(): Devuelve los detalles del pedido.

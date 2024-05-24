@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var adapter_internal_class_1 = require("./adapter/adapter-internal.class");
+var adapter_external_class_1 = require("./adapter/adapter-external.class");
+var order_manager_service_1 = require("./order.manager.service");
+var orders = [];
+orders.push(new adapter_internal_class_1.AdapterInternalClass('Compra realizada en el sistema interno', 8));
+orders.push(new adapter_external_class_1.AdapterExternalClass('Compra realizada en el sistema externo', 2));
+var manager = new order_manager_service_1.OrderManagerService();
+manager.procesarPedidos(orders);
